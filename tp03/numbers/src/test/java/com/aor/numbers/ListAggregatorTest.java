@@ -1,30 +1,16 @@
 package com.aor.numbers;
 
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
+import static org.mockito.ArgumentMatchers.any;
 
 public class ListAggregatorTest {
-
-    public class ListDeduplicatorStub implements IListDeduplicator{
-        private final List<Integer> list;
-
-        public ListDeduplicatorStub(List<Integer> list) {
-            this.list = list;
-        }
-
-        public List<Integer> deduplicate(IListSorter listSorter){
-            if(list.equals(new ArrayList<Integer>(Arrays.asList(1,2,4,2,5))))
-                return new ArrayList<>(Arrays.asList(1,2,4,5));
-            else if(list.equals(new ArrayList<Integer>(Arrays.asList(1,2,4,2))))
-                return new ArrayList<>(Arrays.asList(1,2,4));
-            else return new ArrayList<>();
-        }
-    }
 
     private List<Integer> setupList(){
         List<Integer> list = new ArrayList<>();
@@ -81,10 +67,12 @@ public class ListAggregatorTest {
     @Test
     public void distinct() {
         List<Integer> list = setupList();
-
         ListAggregator aggregator = new ListAggregator(list);
 
-        int distinct = aggregator.distinct(new ListDeduplicatorStub(list));
+        IListDeduplicator deduplicator = Mockito.mock(IListDeduplicator.class);
+        Mockito.when(deduplicator.deduplicate(any(IListSorter.class))).thenReturn(new ArrayList<>(Arrays.asList(1,2,4,5)));
+
+        int distinct = aggregator.distinct(deduplicator);
 
         assertEquals(4, distinct);
     }
@@ -93,7 +81,11 @@ public class ListAggregatorTest {
     public void distinct_br8726(){
         List<Integer> list = new ArrayList<Integer>(Arrays.asList(1, 2, 4, 2));
         ListAggregator aggregator = new ListAggregator(list);
-        int distinct = aggregator.distinct(new ListDeduplicatorStub(list));
+
+        IListDeduplicator deduplicator = Mockito.mock(IListDeduplicator.class);
+        Mockito.when(deduplicator.deduplicate(any(IListSorter.class))).thenReturn(new ArrayList<>(Arrays.asList(1,2,4)));
+
+        int distinct = aggregator.distinct(deduplicator);
         assertEquals(3, distinct);
     }
 }
