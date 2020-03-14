@@ -10,6 +10,22 @@ import static org.junit.Assert.*;
 
 public class ListAggregatorTest {
 
+    public class ListDeduplicatorStub implements IListDeduplicator{
+        private final List<Integer> list;
+
+        public ListDeduplicatorStub(List<Integer> list) {
+            this.list = list;
+        }
+
+        public List<Integer> deduplicate(IListSorter listSorter){
+            if(list.equals(new ArrayList<Integer>(Arrays.asList(1,2,4,2,5))))
+                return new ArrayList<>(Arrays.asList(1,2,4,5));
+            else if(list.equals(new ArrayList<Integer>(Arrays.asList(1,2,4,2))))
+                return new ArrayList<>(Arrays.asList(1,2,4));
+            else return new ArrayList<>();
+        }
+    }
+
     private List<Integer> setupList(){
         List<Integer> list = new ArrayList<>();
         list.add(1);
@@ -68,8 +84,16 @@ public class ListAggregatorTest {
 
         ListAggregator aggregator = new ListAggregator(list);
 
-        int distinct = aggregator.distinct();
+        int distinct = aggregator.distinct(new ListDeduplicatorStub(list));
 
         assertEquals(4, distinct);
+    }
+
+    @Test
+    public void distinct_br8726(){
+        List<Integer> list = new ArrayList<Integer>(Arrays.asList(1, 2, 4, 2));
+        ListAggregator aggregator = new ListAggregator(list);
+        int distinct = aggregator.distinct(new ListDeduplicatorStub(list));
+        assertEquals(3, distinct);
     }
 }

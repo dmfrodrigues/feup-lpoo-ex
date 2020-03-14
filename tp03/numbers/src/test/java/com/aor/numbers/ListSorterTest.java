@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -47,6 +48,15 @@ public class ListSorterTest {
         ListSorter sorter = new ListSorter(list);
         List<Integer> sorted = sorter.sort();
 
+        assertEquals(expected, sorted);
+    }
+
+    @Test
+    public void sort_br8726(){
+        List<Integer> list = new ArrayList<Integer>(Arrays.asList(1,2,4,2));
+        ListSorter sorter = new ListSorter(list);
+        List<Integer> sorted = sorter.sort();
+        List<Integer> expected = new ArrayList<Integer>(Arrays.asList(1, 2, 2, 4));
         assertEquals(expected, sorted);
     }
 }
