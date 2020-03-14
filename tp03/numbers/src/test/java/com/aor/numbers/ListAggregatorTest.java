@@ -3,6 +3,7 @@ package com.aor.numbers;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -40,6 +41,14 @@ public class ListAggregatorTest {
         int max = aggregator.max();
 
         assertEquals(5, max);
+    }
+
+    @Test
+    public void max_br7263(){
+        List<Integer> list = new ArrayList<Integer>(Arrays.asList(-1, -4, -5));
+        ListAggregator aggregator = new ListAggregator(list);
+        int max = aggregator.max();
+        assertEquals(-1, max);
     }
 
     @Test
