@@ -1,4 +1,4 @@
-public class Ellipse extends Shape {
+public class Ellipse implements AreaShape {
     private double xradius;
     private double yradius;
 
@@ -21,5 +21,15 @@ public class Ellipse extends Shape {
 
     public void setYradius(double yradius) {
         this.yradius = yradius;
+    }
+
+    @Override
+    public double getArea(){
+        return Math.PI*getXradius()*getYradius();
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Ellipse");
     }
 }
