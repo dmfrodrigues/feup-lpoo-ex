@@ -16,8 +16,5 @@ public class AreaAggregator implements SumProvider {
         }
         return sum;
     }
-
-    public String outputXML(){
-        return "<area>"+sum()+"</area>";
-    }
+    
 }
