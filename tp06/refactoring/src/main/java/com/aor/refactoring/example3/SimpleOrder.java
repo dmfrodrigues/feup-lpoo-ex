@@ -13,9 +13,7 @@ public class SimpleOrder {
     }
 
     public double getTotal() {
-        if (discount == null)
-            return price;
-        else
-            return discount.applyDiscount(price);
+        if (discount == null) return price;
+        else                  return discount.applyDiscount(price);
     }
 }
