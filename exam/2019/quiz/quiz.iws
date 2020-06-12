@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../tp02/hero/src/main/java/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tp02/hero/src/main/java/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tp03/numbers/src/test/java/com/aor/numbers/DivisibleByFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tp03/numbers/src/test/java/com/aor/numbers/DivisibleByFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tp06/refactoring/src/main/java/com/aor/refactoring/example6/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../tp06/refactoring/src/main/java/com/aor/refactoring/example6/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +54,9 @@
     <option name="height" value="1060" />
   </component>
   <component name="ProjectId" id="1dE44ka3Ag3mpnhLdk7lFl0D9Do" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +70,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553520726322" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in quiz">
+  <component name="RunManager" selected="JUnit.TestCases">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -137,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in quiz" />
         <item itemvalue="JUnit.TestCases" />
+        <item itemvalue="JUnit.All in quiz" />
         <item itemvalue="JUnit.TestCases.testInvalidTicket" />
         <item itemvalue="JUnit.TestCases.testParticipates" />
         <item itemvalue="JUnit.TestCases.testContains" />
@@ -164,12 +184,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553507421844</updated>
-      <workItem from="1591976731428" duration="77000" />
+      <workItem from="1591976731428" duration="3313000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="247" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1591978180229">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="247" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591978180229" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1591979977404">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591979977404" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1591979977404">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591979977404" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1591979977404">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591979977404" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1591979977404">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591979977404" />
   </component>
   <component name="masterDetails">
     <states>
