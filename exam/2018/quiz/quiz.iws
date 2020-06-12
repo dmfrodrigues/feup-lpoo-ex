@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../2019/quiz/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019/quiz/quiz.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1dEB4hQUg0jt3lEYGRaRUchVf27" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +65,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553520726322" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -159,44 +181,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553507421844</updated>
-      <workItem from="1591980183615" duration="158000" />
+      <workItem from="1591980183615" duration="1845000" />
+      <workItem from="1591982070987" duration="645000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Exam 2018">
+      <created>1591980381648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591980381648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 30m 29s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 31m 45s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 32m 29s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 32m 57s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 34m 47s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testBand - 2019.03.25 at 11h 34m 56s.xml">
-      <configuration name="TestCases.testBand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testContains - 2019.03.25 at 11h 40m 00s.xml">
-      <configuration name="TestCases.testContains" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_testParticipates - 2019.03.25 at 11h 40m 05s.xml">
-      <configuration name="TestCases.testParticipates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases - 2019.03.25 at 11h 40m 12s.xml">
-      <configuration name="TestCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases - 2019.03.25 at 11h 49m 34s.xml">
-      <configuration name="TestCases" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Exam 2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Exam 2018" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="247" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1591982569051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="247" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591982569051" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1591982657823">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591982657823" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1591982657822">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591982657822" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1591982657822">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591982657822" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1591982657822">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591982657822" />
+    <state x="615" y="223" width="680" height="640" key="RollbackChangesDialog" timestamp="1591980424259">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="615" y="223" width="680" height="640" key="RollbackChangesDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591980424259" />
+    <state x="792" y="297" width="325" height="492" key="refactoring.ChangeSignatureDialog" timestamp="1591982634971">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="792" y="297" width="325" height="492" key="refactoring.ChangeSignatureDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591982634971" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1591980515607">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591980515607" />
   </component>
   <component name="masterDetails">
     <states>
