@@ -38,6 +38,7 @@ jobs:
       run: cd tp/tp06 && make test
 
     - name: Upload report
+      if: ${{ failure() }}
       uses: actions/upload-artifact@v2
       with:
         name: tp06-report
