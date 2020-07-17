@@ -7,10 +7,10 @@ import java.util.List;
 
 public class Tree {
     public Date plantedAt;
-    public String lat;
-    public String lon;
-    public String name;
-    private List<Date> appraisalDates;
+    public String locationLatitude;
+    public String locationLongitude;
+    public String locationName;
+    private final List<Date> appraisalDates;
 
     public Tree(Date plantedAt, String lat, String lon, String name){
         this.plantedAt = plantedAt;
@@ -19,13 +19,13 @@ public class Tree {
     }
 
     public void setLocation(String lat, String lon, String name){
-        this.lat = lat;
-        this.lon = lon;
-        this.name = name;
+        this.locationLatitude = lat;
+        this.locationLongitude = lon;
+        this.locationName = name;
     }
 
     public String toString() {
-        return "Tree planted at " + this.plantedAt.toString() + " in location " + this.lat + "," + this.lon + " (" + this.name + ")";
+        return "Tree planted at " + this.plantedAt.toString() + " in location " + this.locationLatitude + "," + this.locationLongitude + " (" + this.locationName + ")";
     }
 
     void addAppraisal(Date d) {
