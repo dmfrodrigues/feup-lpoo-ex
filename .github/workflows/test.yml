@@ -19,5 +19,20 @@ jobs:
     - name: Give gradlew shell scripts permission to execute
       run: find . -name "**gradlew" -exec chmod u+x {} \;
 
-    - name: Test
-      run: make test
+    - name: Test tp01
+      run: cd tp/tp01 && make test
+
+    - name: Test tp02
+      run: cd tp/tp02 && make test
+
+    - name: Test tp03
+      run: cd tp/tp03 && make test
+
+    - name: Test tp04
+      run: cd tp/tp04 && make test
+
+    - name: Test tp05
+      run: cd tp/tp05 && make test
+
+    - name: Test tp06
+      run: cd tp/tp06 && make test
