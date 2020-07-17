@@ -35,13 +35,4 @@ jobs:
       run: cd tp/tp05 && make test
 
     - name: Test tp06
-      run: cd tp/tp06 && make test
-
-    - name: Upload report
-      if: ${{ failure() }}
-      uses: actions/upload-artifact@v2
-      with:
-        name: tp06-report
-        path: tp/tp06/refactoring/build/reports
-
-    
+      run: cd tp/tp06 && make test    
