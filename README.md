@@ -13,7 +13,7 @@
 
 ## Contents
 
-- Theoretical-practical lessons
+- [Theoretical-practical lessons](tp)
 - [Java quiz](exam/java)
 - [Multiple choice quiz](exam/teor) 
 
