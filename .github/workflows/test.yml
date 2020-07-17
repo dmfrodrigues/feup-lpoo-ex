@@ -16,5 +16,8 @@ jobs:
       with:
         java-version: 1.11
 
+    - name: Give gradlew shell scripts permission to execute
+      run: find . -name "**gradlew" -exec chmod u+x {} \;
+
     - name: Test
       run: make test
