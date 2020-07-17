@@ -41,6 +41,7 @@ public class TreeTest {
     @Test
     public void testToString() {
         String result = tree.toString();
+        System.out.println(result);
         assertEquals("Tree planted at Sat Aug 31 10:20:56 WEST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)", result);
     }
 
