@@ -9,7 +9,7 @@
 - **Subjects:** Version control tools, object-oriented languages, unit testing, [SOLID principles](https://en.wikipedia.org/wiki/SOLID), [design patterns](https://refactoring.guru/design-patterns/what-is-pattern), [code smells](https://refactoring.guru/refactoring/smells), [refactorings](https://refactoring.guru/refactoring/what-is-refactoring) and the [MVC model](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 - **Environment:** IntelliJ IDEA
 - **Tools:** Git/GitHub, Java, JUnit, Gradle
-- **Course grade:** ?/20
+- **Course grade:** 19/20
 
 ## Contents
 
